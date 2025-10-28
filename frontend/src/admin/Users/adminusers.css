@@ -1,0 +1,42 @@
+.admin-users {
+  padding: 20px;
+}
+
+.users-table {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.users-header,
+.users-row {
+  display: grid;
+  column-gap: 24px;
+  grid-template-columns: 2fr 3fr 3fr 4fr;
+  align-items: center;
+  padding: 10px 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.users-header {
+  font-weight: 600;
+  background: #f9fafb;
+}
+
+.danger-btn {
+  background: #ef4444;
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.danger-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+

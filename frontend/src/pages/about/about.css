@@ -1,0 +1,95 @@
+.about {
+  padding: 80px 0;
+  text-align: center;
+  min-height: 55vh;
+
+  .about-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    h2 {
+      font-size: 36px;
+      color: #8a4baf;
+      margin-bottom: 16px;
+    }
+
+    p {
+      font-size: 16px;
+      color: #333;
+      line-height: 1.7;
+      margin-bottom: 8px;
+    }
+
+    .about-grid {
+      margin-top: 28px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 16px;
+    }
+
+    .about-card {
+      background: #fff;
+      border: 1px solid #eef2f7;
+      border-radius: 12px;
+      padding: 18px;
+      text-align: left;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+    }
+
+    .about-card h3 {
+      margin: 0 0 8px;
+      color: #432456;
+      font-size: 18px;
+    }
+
+    .about-card ul {
+      padding-left: 18px;
+      margin: 6px 0 0;
+      text-align: left;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 14px;
+      margin-top: 32px;
+    }
+
+    .stat {
+      background: linear-gradient(135deg, #8a4baf 0%, #6b2e8d 100%);
+      color: #fff;
+      padding: 16px 12px;
+      border-radius: 12px;
+      box-shadow: 0 10px 20px rgba(138, 75, 175, 0.25);
+    }
+
+    .stat .num {
+      display: block;
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+
+    .stat .label {
+      opacity: 0.9;
+    }
+
+    .cta {
+      margin-top: 34px;
+      padding: 20px;
+      border-radius: 12px;
+      background: #faf5ff;
+    }
+
+    .cta h3 {
+      margin: 0 0 8px;
+      color: #432456;
+    }
+
+    .common-btn {
+      display: inline-block;
+      margin-top: 10px;
+    }
+  }
+}
